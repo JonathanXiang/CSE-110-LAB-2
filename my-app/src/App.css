@@ -81,3 +81,14 @@ body {
   cursor: pointer;
  }
  
+ .likeButton {
+    width: 20px;
+    height: 20px;
+    
+    
+ }
+ ol {
+    margin: 0;
+    padding: 10px 10px 10px 10px;
+ }
+ 
