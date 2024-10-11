@@ -12,4 +12,15 @@ export const themes = {
  },
 };
 
+export const BGthemes = {
+    light: {
+      foreground: '#000000',
+      background: '#d3d3d3',
+    },
+    dark: {
+      foreground: '#ffffff',
+      background: '#545454',
+ },
+};
 export const ThemeContext = React.createContext(themes.light);
+export const BGThemeContext = React.createContext(BGthemes.light);
